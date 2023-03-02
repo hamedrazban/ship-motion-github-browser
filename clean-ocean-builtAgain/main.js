@@ -1,13 +1,13 @@
-// alert("main")
+alert("main")
 // import './style.css'
 
 
-import * as THREE from './three.js';
+import * as THREE from './node_modules/three/build/three.js';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // import { Water } from 'three/examples/jsm/objects/Water.js';
 // import { Sky } from 'three/examples/jsm/objects/Sky.js';
 // import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader'
-import {GLTFLoader} from './GLTFLoader.js'
+import {GLTFLoader} from './node_modules/three/examples/jsm/loaders/GLTFLoader.js'
 let camera, scene, renderer;
 let controls, water, sun;
 const loader= new GLTFLoader()
